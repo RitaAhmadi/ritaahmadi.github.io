@@ -1,452 +1,104 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Fatimah Ahmadi</title>
-        
-<!-- 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
 
-Sentra Template
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
-https://templatemo.com/tm-518-sentra
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #737773;
+  color: white;
+}
 
--->
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
 <body>
 
-
-
-        <header class="nav-down responsive-nav hidden-lg hidden-md">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--/.navbar-header-->
-            <div id="main-nav" class="collapse navbar-collapse">
-                <nav>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#featured">About Me</a></li>
-                        <li><a href="#projects">Research</a></li>
-                        <li><a href="#teaching">Teaching</a></li>
-                        <li><a href="#blog">Blog Entries</a></li>
-                        <li><a href="#other">Others</a>    </li>
-                        <li><a href="#contact">Contact Me</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div class="sidebar-navigation hidde-sm hidden-xs">
-            <div class="logo">
-                <a href="#">Fatimah Ahmadi</a>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#top">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#featured">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Research
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects2">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Teaching
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#blog">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Blog Entires
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#blog2">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Others
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            <span class="rect"></span>
-                            <span class="circle"></span>
-                            Contact Me
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="social-icons">
-                <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-                <li><a href="#contact"> <i class="fa fa-envelope"></i></li></a>
-                <li><a href="https://twitter.com/fatimahahmadi?lang=en-gb"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://uk.linkedin.com/in/fatimah-ahmadi"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/fatimahmadi"><i class="fa fa-github"></i></a></li>
-                <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-            </ul>
-        </div>
-
-        <div class="slider">
-            <div class="Modern-Slider content-section" id="top">
-                <!-- Item -->
-                <div class="item item-1">
-                    <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                        <div>
-                          <h1>Personal Website</h1>
-                          <p>Fatimah Ahmadi</p>
-                          <div class="white-button button">
-                              <a href="#featured">See More</a>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item item-2">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
-                        <div>
-                            <h1>Personal Website</h1>
-                            <p>Fatimah Ahmadi</p>
-                          
-                          <div class="white-button button">
-                              <a href="#featured">See More</a>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item item-3">
-                    <div class="img-fill">
-                        <div class="image"></div>
-                        <div class="info">
-                        <div>
-                            <h1>Personal Website</h1>
-                            <p></p>
-                          
-                          <div class="white-button button">
-                              <a href="#featured">See More</a>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Item -->
-            </div>
-        </div>
-
-
-        <div class="page-content">
-            <section id="featured" class="content-section">
-                <div class="section-heading">
-                    <h1>About<br><em>Me</em></h1>
-                    <p>For a detailed CV,  
-                    <br>Please contact me!
-                    </p>
-                </div>
-                <div class="content-section">
-                    <div class="col-md-12">
-                    <p>
-                        I am a last-year DPhil student in quantum computing at Quantum Group, 
-                        lead by Samson Abramsky and Bob Coecke, 
-                        based at the Department of Computer Science, University of Oxford. Prior to Oxford,
-                        I worked as a master's student in Quantum Group based at Sharif University of Technology, 
-                        lead by Vahid Karimipour. 
-                        Before Sharif, I did my B.Sc. in Physics at Shahid Beheshti University.<br/>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    
-                </div>
-                </div>
-            </section>
-            <section id="projects" class="content-section">
-                <div class="section-heading">
-                    <h1>Research<br><em>Interests</em></h1>
-                </div>
-                <div class="content-section">
-                    <div class="col-md-12">
-                    <p>
-                        Reading the appendix of Kitaev 2006 during my master's, I was intrigued by category theory, 
-                        which Kitaev used to describe topological excitations called Anyons. Later I wrote my master 
-                        thesis on categorical aspects of topological quantum computation. So I joined Oxford to continue
-                         my studies on topological quantum field theory which moved me towards higher categories, 
-                         the ZX-calculus and still topological quantum computing. 
-                        <br>
-                        I wrote a paper on <a href="https://arxiv.org/abs/1908.01212"> typing tensors in 2-categories</a> 
-                        and a review paper on <a href="https://arxiv.org/abs/2011.02830"> monoidal 2-categories</a>. 
-                    <br>
-                        I am also interested in Machine Learning, particularily Deep Learning methods in quantum physics.
-                        As a physics enthusiast, I am also a fan of complex systems, meaning<a href="https://en.wikipedia.org/wiki/Complex_system">
-                        "systems composed of many components which may interact with each other."</a> This definition includes,
-                        social and financial systems, as well.  
-                </div>
-                    
-            </section>
-            <section id="projects2" class="content-section">
-                        <div class="section-heading">
-                            <h1>Teaching<br><em>Experience</em></h1>
-                            <p>Here I only list my teaching experiences 
-                                <br> at the University of Oxford.</p>
-                        </div>
-                <div class="col-md-12">
-                    <p>
-                    I tutored topological quantum matter at the Department of Physics, 
-                    quantum mechanics at Mansfield college, category theory, and categorical quantum computing 
-                    at the Department of Computer Science. <br>
-                    Students' feedback for topological quantum matter Class 2020 available <a href="https://docs.google.com/spreadsheets/d/1O_sONRX348Mo31E171c20xvaNbu6UP7FiIdsdPF62jM/edit">here</a> and <a href="https://drive.google.com/file/d/1nOOjt17zi1IhJYVyko0ObukcOhCJTx6u/view">here</a>. 
-                  
-                    </p>
-                </div>
-                <div class="col-md-4">
-                 
-                </div>     
-            </section>
-            <section id="blog" class="content-section">
-                <div class="section-heading">
-                    <h1>Blog<br><em>Entries</em></h1>
-                    <p>Here you can find my blog posts. 
-                    <br>Science related posts and also other posts!
-                    </p>
-                </div>
-                <div class="section-content">
-                    <div class="tabs-content">
-                        <div class="wrapper">
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                              <li><a href="#tab1" class="active">July 2020</a></li>
-                              
-                            </ul>
-                            <section id="first-tab-group" class="tabgroup">
-                                <div id="tab1">
-                                    <ul>
-                                        <li>
-                                            <div class="item">
-                                             
-                                                <div class="text-content">
-                                                    <h4>A Collection of Resources for Learning Topological Quantum Computation</h4>
-                                                    <span>July 2020</span>
-                                                    <div>
-                                                        Here is a list of resources for learning topological quantum computation from different perspectives 
-                                                        for different backgrounds.
-                                                    </div>
-                                                    <div class="accent-button button">
-                                                        <a href="https://github.com/MobiusFatimah/Blogposts/blob/master/TQC.md">Continue Reading</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-               
-                            </section> 
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="blog2" class="content-section">
-                <div class="section-heading">
-                    <h1>Other<br><em>Activities</em></h1>
-                    <p>Here you can find other activities and
-                    <br>my interests
-                    </p>
-                </div>
-                <div class="section-content">
-                    <div class="tabs-content">
-                        <div class="wrapper">
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group2">
-                                <li><a href="#tb1" class="active">OxWoCS</a></li>
-                                <li><a href="#tb2">Data</a></li>
-        
-                            </ul>
-                              <section id="first-tab-group2" class="tabgroup">
-                                    <div id="tb1">
-                                        <ul>
-                                            <li>
-                                                <div class="item">
-                                                    <div class="text-content">
-                                                        <h4>Oxbridge Women in Computer Science Conference</h4>
-                                                        <span>March 2019</span>
-                                                        <div>
-                                                        <b></b>
-                                                        The 6th version of the conference was one of the most successful events organized
-                                                         by the society. We had the honor of having Dame Stephanie Shirly as one 
-                                                         of our keynote speakers. The conference had two sessions: the morning session started 
-                                                         with a keynote speech by Rebecca Eynon followed by students' presentations highlighting 
-                                                         𝘸𝘰𝘮𝘦𝘯 "𝘐𝘕" 𝘤𝘰𝘮𝘱𝘶𝘵𝘦𝘳 𝘴𝘤𝘪𝘦𝘯𝘤𝘦, and the afternoon session was "𝘈𝘉𝘖𝘜𝘛" 𝘸𝘰𝘮𝘦𝘯 𝘪𝘯 𝘤𝘰𝘮𝘱𝘶𝘵𝘦𝘳 𝘴𝘤𝘪𝘦𝘯𝘤𝘦 
-                                                         starting with the motivational talk by Mrs. "Shirley." The conference ended with a panel 
-                                                         discussion in the format of the initial remark and moderated by Shomon Whitson. 
-                                                         Panel members from Academia were Marta Kwiatkowska, Blanca Rodriguez, Cristina Manolescu(Bloomberg)and from 
-                                                         Industry were Google representative, Jan Beitner(BCS Gamma)and Cristina Manolescu(Bloomberg). 
-                                                         The conference was funded by  Google, Bloomberg, BCG Gamma, and Apple. For more information check 
-                                                         out the <a href="https://oxbridgewomenincs.splashthat.com/">website</a>. 
-                                                        I was responsible for:
-                                                        <ol>
-                                                            <li>planning the conference program,</li>
-                                                            <li>inviting Keynote speakers and panel members,</li>
-                                                            <li>doing an extensive study about the topic of the panel 
-                                                                and collaborating with the panel moderator to design the 
-                                                                panel and write the questions for the panel members,</li>
-                                                            <li>in collaboration with our secretary, liaising, and 
-                                                                negotiating on practical matters including sponsorship,
-                                                                 booking the conference venue, dinner venue, organizing 
-                                                                 lunch and conference dinner.</li>
-                                                        </ol>
-                                                        </div> 
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div id="tb2">
-                                        <ul>
-                                            <li>
-                                                <div class="item">
-                                                    <div class="text-content">
-                                                     <h4>Spareroom Room Data</h4>
-                                                        <span>May 2020</span>
-                                                        <div>
-                                                          A Python code for extracting data from spareroom and storing information in a mysql database. 
-                                                            Spareroom does not have an API, so I parse the website with Bueatifulsoupe package of python and 
-                                                            clean it in a simple way to only include my preferences. 
-                                                            It asks the user the number of rooms, and the location they want to look for.
-                                                          <div class="accent-button button">
-                                                        <a href="https://github.com/fatimahmadi/Spareroom_Project">Continue Reading</a>
-                                                    </div>
-                                                          </div> 
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                  </div>                    
-                                </section> 
-                        </div>
-                    </div>
-                </div>
-            </section>>
-            <section id="contact" class="content-section">
-                <div id="map">
-                
-                	<!-- How to change your own map point
-                           1. Go to Google Maps
-                           2. Click on your location point
-                           3. Click "Share" and choose "Embed map" tab
-                           4. Copy only URL and paste it within the src="" field below
-                    -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.90438341366!2d-1.252172684220975!3d51.75307197967621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6adb2c486ff%3A0x54fd74639e55e375!2sSt%20Edmund%20Hall!5e0!3m2!1sen!2suk!4v1609176324712!5m2!1sen!2suk" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div id="contact-content">
-                    <div class="section-heading">
-                        <h1>Contact<br><em>Me</em></h1>
-                    </div>
-                    <div>
-                        <p>
-                            <i class="fa fa-envelope"> Email: fatimah.ahmadi@seh.ox.ac.uk</i></div><br/>
-                            <b>Address</b>: St. Edmund Hall, Queen's Ln<br/> Oxford, UK <br/>OX1 4AR
-                        </p>
-                    </div>
-                   
-            </section>
-            <section class="footer">
-                <p>Copyright &copy; 2020 MIT 
-                
-                . Design: Based on TemplateMo/Sentra. Cover Photos: Sheytan Kooh(Lahijan, Iran) Courtesy of Leila Ahmadi Abadeh</p>
-            </section>
-        </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-        // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $('header').outerHeight();
-
-        $(window).scroll(function(event){
-            didScroll = true;
-        });
-
-        setInterval(function() {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 250);
-
-        function hasScrolled() {
-            var st = $(this).scrollTop();
-            
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-                return;
-            
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down
-                $('header').removeClass('nav-down').addClass('nav-up');
-            } else {
-                // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
-                    $('header').removeClass('nav-up').addClass('nav-down');
-                }
-            }
-            
-            lastScrollTop = st;
-        }
-    </script>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<div class="sidebar">
+  <a class="active" href="about.html">About</a>
+  </div>
+<div class="content">
+<div class="w3-black" >
+<h1> About me </h1>
+</div>
+<div class="w3-row-padding w3-light-grey "">
+<p> </p>
+<div class="w3-half">
+<P> </P>
+<P><STRONG>Jan 2017- Present </STRONG><BR>University of Oxford <BR> <a href="http://www.cs.ox.ac.uk/">Computer Science Department</a><BR>
+<Strong>College:</Strong> <a href="https://www.seh.ox.ac.uk/">St. Edmund Hall</a><BR>
+DPhil student<BR></P>
+   
+<P><STRONG>Sep 2012- Jan 2015<BR></STRONG> <A href="http://www.sharif.ir/web/en/">Sharif University of Technology</A>
+<BR> <A title="Department of Physics" href="http://phys.sharif.edu/">Department of Physics</A>, <A rel="noopener" href="http://physics.sharif.edu/~qc/index.html" target="_blank">Quantum Group</A><BR>
+Master of Science, <BR>
+Thesis: <A rel="noopener" href="http://repository.sharif.edu/resource/407517/introduction-to-categorical-aspects-of-topological-quantum-computation" target="_blank">Introduction to Categorical Aspects of Topological Quantum Computation</A><BR>
+</SPAN>
+</P>
+<P>
+<STRONG>Sep 2008-June 2012<BR></STRONG><A title="Shahid Beheshti University"  href="http://en.sbu.ac.ir/sitepages/home.aspx" > Shahid Beheshti University</A><BR>
+ <A rel="noopener" href="http://en.sbu.ac.ir/Faculties/Physics/Pages/default.aspx" target="_blank">Department of Physics</A>     
+<BR> Bachelor of Science     
+</div>
+<div class="w3-half">
+<p> </p>
+<a href="https://en.wikipedia.org/wiki/Arthur%27s_Seat"><img src="me3.jpg" alt="profile picture"></a>
+<h1>Fatimah Ahmadi</h1>
+firstname.surname@cs.ox.ac.uk<BR>
+<Strong>Address: </strong>Room 250, Wolfson Building<BR>
+Parks Road, Oxford OX1 3QD</p>
+</div>
+</div>
+</div>
 
 </body>
 </html>
