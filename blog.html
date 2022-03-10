@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a.active {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #737773;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a class="active" href="main.html">About</a>
+  <a class= "active" href="blogs.html">Blogs</a>
+  </div>
+<div class="content">
+<div class="w3-black" >
+<h1> Blogs </h1>
+</div>
+<div class="w3-row-padding w3-light-grey "">
+<p> </p>
+<div class="w3-half">
+<P> </P>
+<P> <a href="https://github.com/RitaAhmadi/Blogposts/blob/master/TQC.md">A Collection of Resources for Learning
+     Topological Quantum Computation</a><BR></P>
+<P> <a href="https://github.com/RitaAhmadi/Blogposts/blob/master/interesting_papers.md">An Eclectic Collection of Interesting Papers</a><BR></P>  
+<P> <a href=https://github.com/RitaAhmadi/Blogposts/blob/master/interesting_quantum_papers.md>A Collection of Interesting Quantum Papers</a><BR></P>  
+</div>
+
+</body>
+</html>
