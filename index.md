@@ -1,37 +1,104 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/RitaAhmadi/RitaAhmadi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
-### Markdown
+.sidebar a.active {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #737773;
+  color: white;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
 
-```markdown
-Syntax highlighted code block
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
 
-# Header 1
-## Header 2
-### Header 3
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
 
-- Bulleted
-- List
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
 
-1. Numbered
-2. List
+<div class="sidebar">
+  <a class="active" href="index.html">About</a>
+  <a class= "active" href="blog.html">Blogs</a>
+  </div>
+<div class="content">
+<div class="w3-black" >
+<h1> About me </h1>
+</div>
+<div class="w3-row-padding w3-light-grey "">
+<p> </p>
+<div class="w3-half">
+<P> </P>
+<P><BR>University of Oxford <BR> <a href="http://www.cs.ox.ac.uk/">Computer Science Department</a><BR>
+<a href="https://www.seh.ox.ac.uk/">St. Edmund Hall</a><BR>
+DPhil student<BR></P>
+   
+<P> <A href="http://www.sharif.ir/web/en/">Sharif University of Technology</A>
+<BR> <A title="Department of Physics" href="http://phys.sharif.edu/">Department of Physics</A>, <A rel="noopener" href="http://physics.sharif.edu/~qc/index.html" target="_blank">Quantum Group</A><BR>
+Master of Science, <BR>
+Thesis: <A rel="noopener" href="http://repository.sharif.edu/resource/407517/introduction-to-categorical-aspects-of-topological-quantum-computation" target="_blank">Introduction to Categorical Aspects of Topological Quantum Computation</A><BR>
+</SPAN>
+</P>
+<P>
+<BR><A title="Shahid Beheshti University"  href="http://en.sbu.ac.ir/sitepages/home.aspx" > Shahid Beheshti University</A><BR>
+ <A rel="noopener" href="http://en.sbu.ac.ir/Faculties/Physics/Pages/default.aspx" target="_blank">Department of Physics</A>     
+<BR> Bachelor of Science     
+</div>
+<div class="w3-half">
+<p> </p>
+<h1>Fatimah(Rita) Ahmadi</h1>
+firstname.surname@cs.ox.ac.uk<BR>
+<Strong>Address: </strong>Room 250, Wolfson Building<BR>
+Parks Road, Oxford OX1 3QD</p>
+</div>
+</div>
+</div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RitaAhmadi/RitaAhmadi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
