@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fatimah Rita Ahmadi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORK</a>
+    <a href="teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEACHING</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORK</a>
+  <a href="teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEACHING</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+     <!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Papers</h2>
+    <p class="w3-justify"> <a href="https://arxiv.org/abs/1908.01212v3">Typing Tensor Calculus in 2-Categories</a></p>
+     <p class="w3-justify">  We define semi-additive 2-categories; 2-categories enriched over the category of semiadditive categories with 2-biproducts between objects. We provide both limit-form 
+      and algebraic definitions, and demonstrate both definitions are equivalent. We further propose 2-morphisms of these categories are tensor with 4 indices and demonstrate 
+      the details of horizontal and vertical compositions. 
+      </p>
+    <p class="w3-justify"><a href="https://arxiv.org/abs/2011.02830"> Monoidal 2-Categories: A Review</a></p>
+     <p class="w3-justify">  We recover Kapranov and Voevodsky's definition of monoidal 2-categories from the algebraic definition of weak 3-category (or tricategory) by Gurski. Baez and Neuchl reviewed the semi-strict definition of monoidal 2-category. 
+     Stay, one the other hand, spelled out the definition but without tensorators. Schommer Pries cited Stay. The combination of both, constructs the full description 
+     of a monoidal 2-category. We show two unit polytopes spelled out by Stay are excessive.  
+     Stay’s diagrams also need to be revised, as in the presence of tensorators, filling 2-morphisms will be modified based on the modified tensor product </p>.
+      <p class="w3-justify"><a href="https://arxiv.org/abs/2211.03855">
+        </p>
+     <p class="w3-justify">Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics</a>
+        Unitary fusion categories formalise the algebraic theory of topological quantum computation. We rectify confusion around a category describing an anyonic 
+        theory and a category describing topological quantum computation. We show that the latter is a subcategory of Hilb. We represent elements 
+        of the Fibonacci and Ising models, namely the encoding of qubits and the associated braid group representations, with the ZX-calculus 
+        and show that in both cases, the Yang-Baxter equation is directly connected to an instance of the P-rule of the ZX-calculus. 
+        In the Ising case, this reduces to a familiar rule relating two distinct Euler decompositions of the Hadamard gate as π/2 phase rotations,
+        whereas in the Fibonacci case, we give a previously unconsidered exact solution of the P-rule involving the Golden ratio. We demonstrate 
+        the utility of these representations by giving graphical derivations of the single-qubit braid equations for Fibonacci anyons and 
+  the single- and two-qubit braid equations for Ising anyons. </p>
+  <!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Blog Posts</h2>
+    <p class="w3-justify">
+    <a href="https://medium.com/@mobius.rita/the-story-of-a-photo-transistor-20b916ab8a2e">The Story of a Photo: Transistor</a>
+    </p>
+    <p class="w3-justify"><a href="https://medium.com/@mobius.rita/topological-quantum-computing-33611b41f8e1">Topological quantum computing: A short account for a college-level student in physics. Part I</a>
+      </p>
+    <p class="w3-justify"><a href="https://github.com/RitaAhmadi/Blogposts/blob/master/TQC.md"> A Collection of Resources for Learning Topological Quantum Computation</a>
+      </p>
+    <p class="w3-justify"><a href="https://github.com/RitaAhmadi/Blogposts/blob/master/interesting_papers.md">A Collection of Resources</a>
+      </p>
+    
+<!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Others</h2>
+    <p class="w3-justify"> <a href="https://issuu.com/stedmundhall/docs/teddy_hall_magazine_-_pages_-_compressed">I write short stories, poems, and essays! </a>
+    <p class="w3-justify"> I photograph sometimes <a href="https://www.lensculture.com/projects/1701348-the-city#slide-1"> this is a collection called The City </a>
+    </p>
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://twitter.com/FatimahAhmadi" class="fa fa-twitter w3-hover-opacity" ></a>
+  <a href="https://www.linkedin.com/in/fatimah-rita-ahmadi/" class="fa fa-linkedin w3-hover-opacity" ></a>
+    <a href="https://scholar.google.com/citations?user=tJrPvagAAAAJ&hl=en&oi=ao" class="fa fa-google w3-hover-opacity"></a>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
