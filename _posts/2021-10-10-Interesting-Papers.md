@@ -13,3 +13,4 @@
 10. https://hbr.org/podcast/2020/01/new-beginnings
 11. **Why You Can't Make a Computer That Feels Pain** by **Daniel C. Dennett** https://www.jstor.org/stable/20115302
 12. **NAMING AND NECESSITY** by **Kripke** http://people.exeter.ac.uk/sp344/naming_and_necessityocr.pdf
+13. **HOW TO WRITE MATHEMATICS** by **PAUL R. HALMOS** https://entropiesschool.sciencesconf.org/data/How_to_Write_Mathematics.pdf
