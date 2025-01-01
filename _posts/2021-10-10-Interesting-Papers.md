@@ -6,8 +6,6 @@
 4. **Wittgenstein, Seeing-As, and Novelty** by **William Child** https://philarchive.org/archive/CHIWSA-2
 5. **Mathematics at Göttingen under the Nazis** by **Mac Lane** http://www.ams.org/notices/199510/maclane.pdf
 6. **Nullius In Verba** https://www.nature.com/articles/6400730.pdf?origin=ppub
-7. **'Regarding the Pain of Others'** by **Susan Sontag** https://www.nytimes.com/2003/03/23/books/chapters/regarding-the-pain-of-others.html
-
 8. **The 'Corroboration' of Theories** by **Hilary Putnam** http://www.jwood.faculty.unlv.edu/unlv/Articles/PutnamVsPopper.pdf
 9. **Reading List for Undergraduate Math Students** https://www.maths.cam.ac.uk/undergrad/admissions/files/reading-list.pdf
 10. https://hbr.org/podcast/2020/01/new-beginnings
