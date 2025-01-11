@@ -1,3 +1,14 @@
+---
+layout: post
+title: Interesting Papers & Books
+date: 2021-10-10
+description: 
+tags: resource
+categories: 
+---
+
+
+
 # Interesting Papers & Books
 
 1. **On Bullshit** by **Harry Frankfurt** : http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf
