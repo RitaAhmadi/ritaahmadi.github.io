@@ -1,3 +1,14 @@
+---
+layout: post
+title: A Collection of Resources for Learning Topological Quantum Computation
+date: 2022-08-10
+description: 
+tags: resource
+categories: 
+---
+
+
+
 A Collection of Resources for Learning Topological Quantum Computation
 ----------------------------------
 Here is a list of resources for learning topological quantum computation from different perspectives for different backgrounds. Please contribute to the list. The recommendation and description of materials are the personal views of a graduate student and have no claim of being an expert's view on the topic. So please feel free to extend/alter them! 
