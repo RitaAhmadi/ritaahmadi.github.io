@@ -9,7 +9,7 @@ profile:
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Office 707, Weeks Building</p>
+    <p> Office 703, Weeks Building</p>
     <p>South Kensington</p>
     <p>Imperial College London</p>
     <p> London, UK</p>
