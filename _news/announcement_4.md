@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am giving a talk in Morgan Stanley London office. 
+I am giving a talk at Morgan Stanley London office. 
