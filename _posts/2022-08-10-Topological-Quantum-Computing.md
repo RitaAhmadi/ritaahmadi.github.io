@@ -53,5 +53,4 @@ A concise history of the field is tweeted by Maissam Barkeshli on his personal T
 2. [*Undergraduate Lecture Notes in Topological Quantum Field Theory*](https://arxiv.org/pdf/0810.0344.pdf).
 3. [*Lectures on Field Theory and Topology*](https://bookstore.ams.org/cbms-133/).
 
-This should now be more grammatically precise and fluid while keeping the original intent intact!
 
