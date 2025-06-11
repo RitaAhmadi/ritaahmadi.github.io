@@ -2,8 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Fatimah  
+title: blank # the website title (if blank, full name will be used instead) 
 middle_name: Rita
 last_name: Ahmadi
 email: f.ahmadi@imperial.ac.uk
