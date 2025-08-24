@@ -173,7 +173,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("ritaahmadi.bsky.social", "_blank");
+          window.open("https://bsky.app/profile/ritaahmadi.bsky.social", "_blank");
         },
       },{
         id: 'social-email',
@@ -187,21 +187,21 @@ ninja.data = [{
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/frtahmadi", "_blank");
+          window.open("https://instagram.com/https://www.instagram.com/frtahmadi/", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/fatimah-rita-ahmadi", "_blank");
+          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/fatimah-rita-ahmadi/", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=tJrPvagAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=tJrPvagAAAAJ&hl=en&oi=ao", "_blank");
         },
       },{
       id: 'light-theme',
