@@ -93,10 +93,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-planning-two-tutorials-on-tensor-networks-on-the-12th-and-13th-of-december-by-thorsten-wahl-from-the-university-of-cambridge",
+            },},{id: "news-planning-two-tutorials-on-tensor-networks-on-the-12th-and-13th-of-december-by-thorsten-wahl-from-the-university-of-cambridge",
           title: 'Planning two tutorials on Tensor Networks on the 12th and 13th of December...',
           description: "",
           section: "News",},{id: "news-hosting-sevag-gharibian-from-university-of-paderbon",
