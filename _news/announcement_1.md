@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-16
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Planning two tutorials on Quantum Complexity Theory by Sevag Gharibian form University of Paderbon on the 16th and 17th of January. The event is funded by [QuEST](https://www.imperial.ac.uk/quantum-engineering-science-technology/) and [Mathematical Finance Section](https://www.imperial.ac.uk/mathematical-finance). 
