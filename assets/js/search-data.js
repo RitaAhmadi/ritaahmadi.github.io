@@ -187,14 +187,14 @@ ninja.data = [{
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/https://www.instagram.com/frtahmadi/", "_blank");
+          window.open("https://instagram.com/frtahmadi", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/fatimah-rita-ahmadi/", "_blank");
+          window.open("https://www.linkedin.com/in/fatimah-rita-ahmadi", "_blank");
         },
       },{
         id: 'social-scholar',
