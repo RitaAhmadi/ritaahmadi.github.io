@@ -6,7 +6,7 @@ subtitle: <a href='https://profiles.imperial.ac.uk/f.ahmadi'>Imperial College Lo
 
 profile:
   align: right
-  image: <img src="/assets/img/me.jpg" alt="My Photo" loading="lazy">
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> Office 703, Weeks Building</p>
