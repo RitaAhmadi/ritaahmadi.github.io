@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://profiles.imperial.ac.uk/f.ahmadi'>Imperial College London</a>
+subtitle: 
 
 profile:
   align: right
