@@ -132,7 +132,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: false
+  enabled: true
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
@@ -142,13 +142,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -186,6 +186,12 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
   - README.md
   - readme_preview/
   - vendor
