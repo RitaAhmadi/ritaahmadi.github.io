@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /art/
+permalink: /about/
 title: art
 description: 
 nav: true
