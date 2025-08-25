@@ -28,7 +28,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/art/";
+            window.location.href = "/about/";
           },
         },{id: "nav-imperial-seminars",
           title: "Imperial Seminars",
