@@ -6,8 +6,9 @@ subtitle:
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile.jpeg
   image_circular: false # crops the image to make it circular
+  image_width: 200px  
   more_info: fatimah dot rita dot ahmadi at gmail dot com
 
 announcements:
