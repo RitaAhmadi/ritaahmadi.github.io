@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /supervison/
+permalink: /teaching/
 title: supervison
 description: 
 nav: true
