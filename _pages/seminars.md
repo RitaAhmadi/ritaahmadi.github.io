@@ -6,14 +6,14 @@ description:
 nav: true
 nav_order: 6
 ---
-## Academic Service 
+
 1. Reviewer, New Journal of Physics
 2. Reviewer, Quantum Science and Technology
 3. Reviewer, IEEE Transactions on Quantum Engineering
 4. Programme Committee, SYCO 3
 
 
-## Fall and Winter 2024-2025
+## Imperial Seminars: Fall and Winter 2024-2025
 I organised a series of tutorials at Imperial College London. 
 
 If you would like to attend, please send me an email to add you to the mailing list. 
