@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/about/";
           },
-        },{id: "nav-imperial-seminars",
-          title: "Imperial Seminars",
+        },{id: "nav-academic-service",
+          title: "Academic Service",
           description: "",
           section: "Navigation",
           handler: () => {
