@@ -15,8 +15,15 @@ title: About
 
     <!-- Bio + Links -->
     <div class="about-text">
-      <p>I am **Rita Ahmadi**; a stipendiary lecturer at *Mansfield College, at University of Oxford*. Before that, I was postdoctoral researcher at the *Department of Mathematics, Imperial College London*. I did my DPhil at Quantum Group based at the Department of Computer Science, University of Oxford. During my PhD, I worked on topological quantum computation and category theory. In my thesis, I studied and proposed bicategorical structures for topological quantum computation.
-      </p>
+     <p>
+  I am <strong>Rita Ahmadi</strong>; a stipendiary lecturer at Mansfield College, 
+  <em>University of Oxford</em>. Before that, I was postdoctoral researcher at the 
+  Department of Mathematics, <em>Imperial College London</em>. I did my 
+  <em>DPhil</em> at the Quantum Group based at the Department of Computer Science, 
+  <em>University of Oxford</em>. During my PhD, I worked on topological quantum 
+  computation and category theory. In my thesis, I studied and proposed 
+  bicategorical structures for topological quantum computation.
+</p>
 
       <p class="social-links">
         <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> ·
