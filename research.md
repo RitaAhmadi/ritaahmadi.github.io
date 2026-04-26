@@ -41,7 +41,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi</div>
           <div class="pub-venue">arXiv preprint · 2025</div>
-          <p>This paper develops a 2-categorical framework for topological quantum computation, providing a structured algebraic setting for reasoning about higher-dimensional compositional aspects of anyonic systems and quantum gates.</p>
+          <p>This paper develops a 2-categorical framework for topological quantum computation.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2505.22171" target="_blank">arXiv →</a>
           </div>
@@ -59,7 +59,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi, Aleks Kissinger</div>
           <div class="pub-venue">Journal of Physics A: Mathematical and Theoretical, Vol. 56, No. 41 · 2023</div>
-          <p>We show how the ZX-calculus can serve as a complete graphical language for topological quantum computation, connecting categorical quantum mechanics with anyonic models through diagrammatic rewriting.</p>
+          <p>We show how the ZX-calculus can serve as a complete graphical language for topological quantum computation.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://iopscience.iop.org/article/10.1088/1751-8121/acfc8b" target="_blank">Journal →</a>
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
@@ -78,7 +78,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi, Aleks Kissinger</div>
           <div class="pub-venue">arXiv e-prints · 2022</div>
-          <p>A categorical treatment of topological quantum computation using the machinery of categorical quantum mechanics, establishing connections between anyonic computation and diagrammatic calculi.</p>
+          <p>A categorical treatment of topological quantum computation using the machinery of categorical quantum mechanics.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
           </div>
@@ -96,7 +96,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi</div>
           <div class="pub-venue">DPhil Thesis, University of Oxford · 2022</div>
-          <p>This thesis studies and proposes bicategorical structures for topological quantum computation, providing a higher-categorical foundation for the algebraic and compositional aspects of anyonic systems.</p>
+          <p>This thesis studies and proposes bicategorical structures for topological quantum computation.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://ora.ox.ac.uk/objects/uuid:your-thesis-id" target="_blank">Oxford ORA →</a>
           </div>
@@ -132,7 +132,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Ahmadi</div>
           <div class="pub-venue">arXiv preprint · 2019</div>
-          <p>This paper develops a typed tensor calculus within the framework of 2-categories, providing a formal language for higher-dimensional diagrammatic reasoning in categorical quantum mechanics.</p>
+          <p>This paper develops a typed tensor calculus within the framework of 2-categories.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/1908.01212" target="_blank">arXiv →</a>
           </div>
