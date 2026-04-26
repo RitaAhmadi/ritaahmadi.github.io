@@ -12,16 +12,15 @@ I am a researcher. blah blah
 <section class="section-block">
   <p class="section-label">News</p>
 
-  {% for post in site.news %}
-    {% if post.inline %}
-      <div class="news-item">
-        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
-        <div class="content">
-          {{ post.content }}
-        </div>
+  {% assign news_items = site.news | where: "inline", true | sort: "date" | reverse %}
+
+  {% for post in news_items %}
+    <div class="news-item">
+      <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+      <div class="content">
+        {{ post.content }}
       </div>
-    {% endif %}
+    </div>
   {% endfor %}
 
 </section>
-
