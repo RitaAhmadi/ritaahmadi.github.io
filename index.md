@@ -14,15 +14,19 @@ I am a researcher. blah blah
 <section class="section-block">
 
 <p class="section-label">News</p>
-
 {% assign sorted = site.news | sort: "date" | reverse %}
 
-{% for item in site.news limit:10 %}
-<div class="news-item">
-  <div class="news-date">
-    {{ item.date | date: "%Y-%m-%d" }}
-  </div>
+{% for item in sorted limit:10 %}
+  <div class="news-item">
+    <span class="news-date">
+      {{ item.date | date: "%Y-%m-%d" }}
+    </span>
 
-</div>
+    <span class="news-title">
+      {{ item.title }}
+    </span>
+  </div>
 {% endfor %}
+
 </section>
+
