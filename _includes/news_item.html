@@ -1,6 +1,8 @@
-<div class="news-item">
-  <span class="news-date">{{ include.date }}</span>
-  <div class="news-text">
-    <p>{{ include.text }}</p>
+{% for item in site.news %}
+  <div class="news-item">
+    <p class="date">{{ item.date | date: "%Y-%m-%d" }}</p>
+    <div>
+      {{ item.content }}
+    </div>
   </div>
-</div>
+{% endfor %}
