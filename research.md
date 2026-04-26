@@ -12,24 +12,13 @@ permalink: /research/
   <div class="interests-grid">
 
     <div class="interest-item">
-      <h3>Topological Quantum Computation</h3>
-      <p>Studying how topological properties of physical systems can be exploited to perform robust, fault-tolerant quantum computation, with a focus on anyonic systems and braiding operations.</p>
+      <h3>Quantum Computation</h3>
     </div>
 
     <div class="interest-item">
-      <h3>Category Theory & Higher Categories</h3>
-      <p>Developing bicategorical and monoidal 2-categorical frameworks as algebraic foundations for quantum information and computation, including string diagrams and tensor calculus.</p>
+      <h3>Category Theory </h3>
     </div>
 
-    <div class="interest-item">
-      <h3>ZX-Calculus & Diagrammatic Reasoning</h3>
-      <p>Using the ZX-calculus and related graphical languages as expressive, complete formalisms for reasoning about quantum processes and topological quantum computation.</p>
-    </div>
-
-    <div class="interest-item">
-      <h3>Categorical Quantum Mechanics</h3>
-      <p>Applying categorical structures — particularly dagger compact categories — to give compositional, diagrammatic accounts of quantum protocols and physical processes.</p>
-    </div>
 
   </div>
 </section>
@@ -57,7 +46,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          This paper develops a 2-categorical framework for topological quantum computation, providing a structured algebraic setting for reasoning about higher-dimensional compositional aspects of anyonic systems and quantum gates.
+          This paper develops a 2-categorical framework for topological quantum computation.
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2505.22171" target="_blank">arXiv →</a>
           </div>
@@ -80,7 +69,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          We show how the ZX-calculus can serve as a complete graphical language for topological quantum computation, connecting categorical quantum mechanics with anyonic models through diagrammatic rewriting.
+          We show how the ZX-calculus can serve as a complete graphical language for topological quantum computation.
           <div class="pub-links">
             <a class="cta-link" href="https://iopscience.iop.org/article/10.1088/1751-8121/acfc8b" target="_blank">Journal →</a>
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
@@ -104,7 +93,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          A categorical treatment of topological quantum computation using the machinery of categorical quantum mechanics, establishing connections between anyonic computation and diagrammatic calculi.
+          A categorical treatment of topological quantum computation using the machinery of categorical quantum mechanics.
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
           </div>
@@ -127,7 +116,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          This thesis studies and proposes bicategorical structures for topological quantum computation, providing a higher-categorical foundation for the algebraic and compositional aspects of anyonic systems.
+          This thesis studies and proposes bicategorical structures for topological quantum computation.
           <div class="pub-links">
             <a class="cta-link" href="https://ora.ox.ac.uk/objects/uuid:your-thesis-id" target="_blank">Oxford ORA →</a>
           </div>
@@ -150,7 +139,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          A self-contained review of monoidal 2-categories, collecting and clarifying definitions, coherence conditions, and key examples relevant to higher-categorical approaches in mathematical physics.
+          A self-contained review of monoidal 2-categories, collecting and clarifying definitions, coherence conditions and axioms.
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2011.02830" target="_blank">arXiv →</a>
           </div>
@@ -173,7 +162,7 @@ permalink: /research/
       </div>
       <div class="pub-summary">
         <div class="pub-summary-inner">
-          This paper develops a typed tensor calculus within the framework of 2-categories, providing a formal language for higher-dimensional diagrammatic reasoning in categorical quantum mechanics.
+          This paper develops a typed tensor calculus within the framework of 2-categories.
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/1908.01212" target="_blank">arXiv →</a>
           </div>
@@ -200,24 +189,29 @@ permalink: /research/
       <span class="service-year">2022–present</span>
     </div>
 
-    <div class="service-item">
-      <div>
-        <h4>Programme Committee — [Conference Name]</h4>
-        <p>[Brief note on your role]</p>
-      </div>
-      <span class="service-year">2023</span>
-    </div>
-
-    <div class="service-item">
-      <div>
-        <h4>Organiser — [Workshop / Seminar Name]</h4>
-        <p>[Brief description of the event and your role]</p>
-      </div>
-      <span class="service-year">2024</span>
-    </div>
-
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
   /* ── Research Interests ── */
