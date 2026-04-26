@@ -19,7 +19,6 @@ I am a researcher. blah blah
       </div>
     </div>
   {% endif %}
-{% endfor %}
 
 </section>
 
