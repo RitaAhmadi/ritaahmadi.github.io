@@ -8,17 +8,20 @@ title: About
 I am a researcher. blah blah 
 </section>
 
+
 <section class="section-block">
-<p class="section-label">News</p>
-{% for post in site.posts %}
-  {% if post.inline %}
-    <div class="news-item">
-      <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
-      <div class="content">
-        {{ post.content }}
+  <p class="section-label">News</p>
+
+  {% for post in site.news %}
+    {% if post.inline %}
+      <div class="news-item">
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+        <div class="content">
+          {{ post.content }}
+        </div>
       </div>
-    </div>
-  {% endif %}
+    {% endif %}
+  {% endfor %}
 
 </section>
 
