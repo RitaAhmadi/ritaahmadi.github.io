@@ -1,12 +1,22 @@
-<header>
-  <a class="site-name" href="{{ '/' | relative_url }}">
-    Rita Ahmadi
-  </a>
+<header class="site-header">
+  <div class="nav-container">
+    
+    <div class="site-title">
+      <a href="/">Your Name</a>
+    </div>
 
-  <nav>
-    <a href="{{ '/' | relative_url }}">About</a>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-    <a href="{{ '/others/' | relative_url }}">Others</a>
-  </nav>
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menuToggle">
+      ☰
+    </div>
+
+    <!-- Navigation links -->
+    <nav class="nav-links" id="navLinks">
+      <a href="/">About</a>
+      <a href="/research">Research</a>
+      <a href="/teaching">Teaching</a>
+      <a href="/others">Others</a>
+    </nav>
+
+  </div>
 </header>
