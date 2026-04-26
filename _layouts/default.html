@@ -9,42 +9,26 @@
 
 <body>
 
-{% include header.html %}
+  {% include header.html %}
 
-<main>
-  {{ content }}
-</main>
+  <main>
+    {{ content }}
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
 
   <script>
-function toggleMenu() {
-  var menu = document.getElementById("navLinks");
-  menu.classList.toggle("active");
-}
-</script>
-  
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.getElementById("menuToggle");
+      const menu = document.getElementById("navLinks");
+
+      if (toggle && menu) {
+        toggle.addEventListener("click", function () {
+          menu.classList.toggle("active");
+        });
+      }
+    });
+  </script>
+
 </body>
-  <header class="site-header">
-  <div class="nav-container">
-    
-    <div class="site-title">
-      <a href="/">Your Name</a>
-    </div>
-
-    <!-- Hamburger -->
-    <div class="menu-toggle" onclick="toggleMenu()">
-      ☰
-    </div>
-
-    <!-- Navigation links -->
-    <nav class="nav-links" id="navLinks">
-      <a href="/">About</a>
-      <a href="/research">research</a>
-      <a href="/teaching">teaching</a>
-      <a href="/others">others</a>
-    </nav>
-
-  </div>
-</header>
 </html>
