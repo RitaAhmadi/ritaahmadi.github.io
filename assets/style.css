@@ -22,49 +22,67 @@ body {
   line-height: 1.7;
 }
 
-/* HEADER */
-header {
+/* ================= HEADER (FIXED + CLEAN) ================= */
+
+.site-header {
   position: fixed;
   top: 0; left: 0; right: 0;
   height: 68px;
   background: var(--white);
   border-bottom: 1px solid var(--light);
+  padding: 0 5vw;
+  z-index: 1000;
+}
+
+.nav-container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5vw;
 }
 
-.site-name {
-  font-size: 1.1rem;
+.site-title a {
   text-decoration: none;
+  font-size: 1.1rem;
   color: var(--black);
 }
 
-/* NAV */
-nav {
+/* NAVIGATION */
+
+.nav-links {
   display: flex;
   gap: 2.5rem;
 }
 
-nav a {
+.nav-links a {
   text-decoration: none;
   color: var(--mid);
   font-size: 0.82rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  transition: color 0.2s ease;
 }
 
-nav a:hover {
+.nav-links a:hover {
   color: var(--black);
 }
 
-/* MAIN */
+/* HAMBURGER */
+
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ================= MAIN ================= */
+
 main {
   padding-top: 68px;
 }
 
-/* SECTIONS */
+/* ================= SECTIONS ================= */
+
 .section-block {
   padding: 5vw;
   border-bottom: 1px solid var(--light);
@@ -78,7 +96,8 @@ main {
   margin-bottom: 2rem;
 }
 
-/* NEWS */
+/* ================= NEWS ================= */
+
 .news-item {
   display: grid;
   grid-template-columns: 110px 1fr;
@@ -94,22 +113,7 @@ main {
   letter-spacing: 0.08em;
 }
 
-/* FOOTER */
-footer {
-  border-top: 1px solid var(--light);
-  padding: 2rem 5vw;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: var(--mid);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .news-item {
-    grid-template-columns: 90px 1fr;
-  }
-}
+/* ================= ABOUT ================= */
 
 .about-container {
   display: flex;
@@ -141,8 +145,50 @@ footer {
   text-decoration: underline;
 }
 
-/* Mobile */
+/* ================= FOOTER ================= */
+
+footer {
+  border-top: 1px solid var(--light);
+  padding: 2rem 5vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--mid);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .news-item {
+    grid-template-columns: 90px 1fr;
+  }
+}
+
+/* MOBILE NAV FIX */
+
 @media (max-width: 700px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 68px;
+    right: 5vw;
+    background: var(--white);
+    border: 1px solid var(--light);
+    padding: 15px;
+    flex-direction: column;
+    gap: 12px;
+    width: 180px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
   .about-container {
     flex-direction: column;
     align-items: center;
@@ -150,59 +196,5 @@ footer {
 
   .about-photo img {
     width: 150px;
-  }
-}
-
-
-.site-header {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 20px;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-title a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #000;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Hamburger */
-.menu-toggle {
-  display: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
   }
 }
