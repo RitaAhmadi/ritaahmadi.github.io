@@ -37,7 +37,7 @@ permalink: /research/
     <a class="essay-card" href="https://aeon.co/essays/how-should-we-define-mathematical-beauty-in-the-ai-age" target="_blank">
       <div class="essay-card-img">
         <!-- Save the Aeon cover image as /assets/img/essays/aeon-beauty.jpg -->
-        <img src="{{ '/assets/img/essays/aeon-beauty.jpg' | relative_url }}" alt="Mathematical Beauty in the AI Age"/>
+        <img src="{{ '/assets/img/essays/aeon-bm.png' | relative_url }}" alt="Mathematical Beauty in the AI Age"/>
       </div>
       <div class="essay-card-body">
         <span class="essay-card-venue">Aeon · 2026</span>
