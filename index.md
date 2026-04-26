@@ -1,11 +1,35 @@
+
+
 ---
 layout: default
 title: About
 ---
 
 <section class="section-block">
-<p class="section-label">About</p>
-I am a stipendiary lecturer at Mansfield College, at University of Oxford. Before that, I was postdoctoral researcher at the Department of Mathematics, Imperial College London. I did my DPhil at Quantum Group based at the Department of Computer Science, University of Oxford. During my PhD, I worked on topological quantum computation and category theory. In my thesis, I studied and proposed bicategorical structures for topological quantum computation.
+  <p class="section-label">About</p>
+
+  <div class="about-container">
+    
+    <!-- Photo -->
+    <div class="about-photo">
+      <img src="/assets/img/profile.jpg" alt="Profile photo">
+    </div>
+
+    <!-- Bio + Links -->
+    <div class="about-text">
+      <p>I am a stipendiary lecturer at Mansfield College, at University of Oxford. Before that, I was postdoctoral researcher at the Department of Mathematics, Imperial College London. I did my DPhil at Quantum Group based at the Department of Computer Science, University of Oxford. During my PhD, I worked on topological quantum computation and category theory. In my thesis, I studied and proposed bicategorical structures for topological quantum computation.
+      </p>
+
+      <p class="social-links">
+        <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> ·
+        <a href="https://bsky.app/profile/YOUR_HANDLE" target="_blank">Bluesky</a> ·
+        <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a> ·
+        <a href="https://instagram.com/YOUR_HANDLE" target="_blank">Instagram</a>
+      </p>
+
+    </div>
+
+  </div>
 </section>
 
 
