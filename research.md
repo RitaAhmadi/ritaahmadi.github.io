@@ -12,24 +12,13 @@ permalink: /research/
   <div class="interests-grid">
 
     <div class="interest-item">
-      <h3>Topological Quantum Computation</h3>
-      <p>Studying how topological properties of physical systems can be exploited to perform robust, fault-tolerant quantum computation, with a focus on anyonic systems and braiding operations.</p>
+      <h3>Quantum Computation</h3>
     </div>
 
     <div class="interest-item">
-      <h3>Category Theory & Higher Categories</h3>
-      <p>Developing bicategorical and monoidal 2-categorical frameworks as algebraic foundations for quantum information and computation, including string diagrams and tensor calculus.</p>
+      <h3>Category Theory </h3>
     </div>
 
-    <div class="interest-item">
-      <h3>ZX-Calculus & Diagrammatic Reasoning</h3>
-      <p>Using the ZX-calculus and related graphical languages as expressive, complete formalisms for reasoning about quantum processes and topological quantum computation.</p>
-    </div>
-
-    <div class="interest-item">
-      <h3>Categorical Quantum Mechanics</h3>
-      <p>Applying categorical structures — particularly dagger compact categories — to give compositional, diagrammatic accounts of quantum protocols and physical processes.</p>
-    </div>
 
   </div>
 </section>
