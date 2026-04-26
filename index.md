@@ -5,7 +5,7 @@ title: About
 
 <section class="section-block">
 <p class="section-label">About</p>
-I am a researcher. blah blah 
+I am a stipendiary lecturer at Mansfield College, at University of Oxford. Before that, I was postdoctoral researcher at the Department of Mathematics, Imperial College London. I did my DPhil at Quantum Group based at the Department of Computer Science, University of Oxford. During my PhD, I worked on topological quantum computation and category theory. In my thesis, I studied and proposed bicategorical structures for topological quantum computation.
 </section>
 
 
