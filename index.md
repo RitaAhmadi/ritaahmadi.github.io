@@ -7,8 +7,7 @@ title: About
 
 <p class="section-label">About</p>
 
-I am a researcher in quantum computation and quantum information theory.  
-My work focuses on quantum complexity theory and the mathematical foundations of quantum computing.
+I am a researcher. blah blah 
 
 </section>
 
