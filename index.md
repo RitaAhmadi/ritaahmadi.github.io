@@ -17,15 +17,12 @@ I am a researcher. blah blah
 
 {% assign sorted = site.news | sort: "date" | reverse %}
 
-{% for item in site.news limit:5 %}
+{% for item in site.news limit:10 %}
 <div class="news-item">
   <div class="news-date">
     {{ item.date | date: "%Y-%m-%d" }}
   </div>
 
-  <div class="news-title">
-    {{ item.title }}
-  </div>
 </div>
 {% endfor %}
 </section>
