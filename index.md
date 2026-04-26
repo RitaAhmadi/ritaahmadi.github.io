@@ -17,11 +17,15 @@ I am a researcher. blah blah
 
 {% assign sorted = site.news | sort: "date" | reverse %}
 
-{% for item in sorted %}
-  {% include news_item.html
-    date=item.date
-    text=item.content
-  %}
-{% endfor %}
+{% for item in site.news limit:5 %}
+<div class="news-item">
+  <div class="news-date">
+    {{ item.date | date: "%Y-%m-%d" }}
+  </div>
 
+  <div class="news-title">
+    {{ item.title }}
+  </div>
+</div>
+{% endfor %}
 </section>
