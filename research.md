@@ -59,7 +59,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi, Aleks Kissinger</div>
           <div class="pub-venue">Journal of Physics A: Mathematical and Theoretical, Vol. 56, No. 41 · 2023</div>
-          <p>We show how the ZX-calculus can serve as a complete graphical language for topological quantum computation.</p>
+          <p>We show how the ZX-calculus can serve as a graphical language for topological quantum computation.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://iopscience.iop.org/article/10.1088/1751-8121/acfc8b" target="_blank">Journal →</a>
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
@@ -78,7 +78,6 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi, Aleks Kissinger</div>
           <div class="pub-venue">arXiv e-prints · 2022</div>
-          <p>A categorical treatment of topological quantum computation using the machinery of categorical quantum mechanics.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2211.03504" target="_blank">arXiv →</a>
           </div>
@@ -114,7 +113,7 @@ permalink: /research/
         <div class="pub-summary-inner">
           <div class="pub-authors">Fatimah Rita Ahmadi</div>
           <div class="pub-venue">arXiv preprint · 2020</div>
-          <p>A self-contained review of monoidal 2-categories, collecting and clarifying definitions, coherence conditions, and key examples relevant to higher-categorical approaches in mathematical physics.</p>
+          <p>A self-contained review of monoidal 2-categories, collecting and clarifying definitions, coherence conditions, and axioms.</p>
           <div class="pub-links">
             <a class="cta-link" href="https://arxiv.org/abs/2011.02830" target="_blank">arXiv →</a>
           </div>
