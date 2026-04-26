@@ -17,6 +17,13 @@
 
 {% include footer.html %}
 
+  <script>
+function toggleMenu() {
+  var menu = document.getElementById("navLinks");
+  menu.classList.toggle("active");
+}
+</script>
+  
 </body>
   <header class="site-header">
   <div class="nav-container">
@@ -33,9 +40,9 @@
     <!-- Navigation links -->
     <nav class="nav-links" id="navLinks">
       <a href="/">About</a>
-      <a href="/publications">Publications</a>
-      <a href="/teaching">Teaching</a>
-      <a href="/contact">Contact</a>
+      <a href="/research">research</a>
+      <a href="/teaching">teaching</a>
+      <a href="/others">others</a>
     </nav>
 
   </div>
