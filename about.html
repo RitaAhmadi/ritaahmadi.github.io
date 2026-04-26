@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>[Your Name] — About</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* ── BIO ── */
+    .about-bio {
+      display: grid;
+      grid-template-columns: 1fr 2.2fr;
+      gap: 4vw;
+      align-items: start;
+    }
+
+    .about-photo {
+      aspect-ratio: 3/4;
+      background: var(--light);
+      overflow: hidden;
+      position: sticky;
+      top: 90px;
+    }
+
+    .about-photo img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .photo-placeholder {
+      width: 100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .photo-placeholder p {
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--mid);
+      opacity: 0.5;
+    }
+
+    .bio-text h1 {
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 0.3rem;
+    }
+
+    .bio-text .bio-title {
+      font-style: italic;
+      color: var(--mid);
+      font-size: 1.05rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .bio-text .bio-institution {
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      color: var(--mid);
+      margin-bottom: 2rem;
+    }
+
+    .bio-text p {
+      font-size: 1.05rem;
+      color: #2a2a2a;
+      margin-bottom: 1rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    /* ── FEATURES ── */
+    .features-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .feature-tag {
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      border: 1px solid var(--light);
+      padding: 0.35rem 1rem;
+      color: var(--black);
+      /* Add more tags in about.html — just copy this span */
+    }
+
+    /* ── NEWS ── */
+    .news-item {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 2rem;
+      padding: 1.6rem 0;
+      border-bottom: 1px solid var(--light);
+      align-items: start;
+    }
+
+    .news-item:first-child { border-top: 1px solid var(--light); }
+
+    .news-date {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--mid);
+      padding-top: 0.15rem;
+    }
+
+    .news-text p {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #2a2a2a;
+      line-height: 1.7;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .about-bio { grid-template-columns: 1fr; }
+      .about-photo { position: static; aspect-ratio: 1 / 1; max-height: 340px; }
+      .news-item { grid-template-columns: 90px 1fr; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="site-name" href="about.html">[Your Name] <span>/ Academic</span></a>
+  <nav>
+    <a href="about.html" class="active">About</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="others.html">Others</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ── BIO ── -->
+  <div class="section-block">
+    <p class="section-label">About</p>
+    <div class="about-bio">
+
+      <div class="about-photo">
+        <!-- Replace the placeholder below with your photo:
+             <img src="images/photo.jpg" alt="[Your Name]"/> -->
+        <div class="photo-placeholder">
+          <p>Your Photo</p>
+        </div>
+      </div>
+
+      <div class="bio-text">
+        <h1>[Your Full Name]</h1>
+        <p class="bio-title">[Your Title / Position]</p>
+        <p class="bio-institution">[Department] · [University]</p>
+
+        <!-- Edit your bio paragraphs below -->
+        <p>
+          Welcome. I am a [researcher/professor] working at the intersection of
+          [field A] and [field B]. My work explores [core theme], with particular
+          attention to [specific focus].
+        </p>
+        <p>
+          Before joining [current institution], I was [previous position] at
+          [previous institution]. I hold a PhD in [field] from [university],
+          and a [degree] from [university].
+        </p>
+        <p>
+          My research has been [published / supported / recognised] by
+          [journals / institutions / awards]. I am always open to conversations
+          about [topics].
+        </p>
+
+        <!-- Contact links — replace # with real URLs -->
+        <div class="contact-links">
+          <a class="cta-link" href="mailto:you@university.edu">Email</a>
+          <a class="cta-link" href="#">CV</a>
+          <a class="cta-link" href="#">Google Scholar</a>
+          <a class="cta-link" href="#">Twitter / X</a>
+          <a class="cta-link" href="#">ORCID</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── FEATURES ── -->
+  <div class="section-block">
+    <p class="section-label">Features</p>
+    <div class="features-tags">
+      <!-- Add or remove tags freely — just copy a <span> -->
+      <span class="feature-tag">[Feature / Expertise One]</span>
+      <span class="feature-tag">[Feature / Expertise Two]</span>
+      <span class="feature-tag">[Feature / Expertise Three]</span>
+      <span class="feature-tag">[Feature / Expertise Four]</span>
+      <span class="feature-tag">[Feature / Expertise Five]</span>
+      <span class="feature-tag">[Feature / Expertise Six]</span>
+    </div>
+  </div>
+
+  <!-- ── NEWS ── -->
+  <div class="section-block">
+    <p class="section-label">News</p>
+
+    <!-- Copy a .news-item block to add more entries -->
+
+    <div class="news-item">
+      <span class="news-date">Apr 2025</span>
+      <div class="news-text">
+        <p>New paper accepted at [Journal Name] on the topic of [subject]. A short description of what it contributes to the field.</p>
+        <a class="cta-link" href="#">Read →</a>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">Mar 2025</span>
+      <div class="news-text">
+        <p>Invited talk at [Conference / Institution]. Brief description of the talk, its topic, and occasion.</p>
+        <a class="cta-link" href="#">Read →</a>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">Jan 2025</span>
+      <div class="news-text">
+        <p>Grant awarded by [Funding Body] to support research on [topic]. Short description of the project this will fund.</p>
+        <a class="cta-link" href="#">Read →</a>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">Nov 2024</span>
+      <div class="news-text">
+        <p>[Student Name] joins the group as a PhD student working on [topic].</p>
+        <a class="cta-link" href="#">Read →</a>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>[Your Name] · [Year]</p>
+  <p>Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
