@@ -10,18 +10,15 @@ I am a researcher. blah blah
 
 <section class="section-block">
 <p class="section-label">News</p>
-{% assign sorted = site.news | sort: "date" | reverse %}
-
-{% for item in sorted %}
-  <div class="news-item">
-    <div class="news-date">
-      {{ item.date | date: "%Y-%m-%d" }}
+{% for post in site.posts %}
+  {% if post.inline %}
+    <div class="news-item">
+      <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </div>
-
-    <div class="news-title">
-      {{ item.title }}
-    </div>
-  </div>
+  {% endif %}
 {% endfor %}
 
 </section>
