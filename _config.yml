@@ -1,0 +1,6 @@
+title: "Rita Ahmadi"
+markdown: kramdown
+
+collections:
+  news:
+    output: false
