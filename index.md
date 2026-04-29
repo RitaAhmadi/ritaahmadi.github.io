@@ -16,7 +16,7 @@ title: About
     <!-- Bio + Links -->
     <div class="about-text">
      <p> I am <strong>Rita Ahmadi</strong>; a stipendiary lecturer at Mansfield College, 
-  <em>University of Oxford</em>. Before that, I was postdoctoral researcher at the 
+  <em>University of Oxford</em>. Before that, I was a postdoctoral researcher at the 
   Department of Mathematics, <em>Imperial College London</em>. I did my 
   <em>DPhil</em> at Quantum Group based at the Department of Computer Science, 
   <em>University of Oxford</em>. During my PhD, I worked on topological quantum 
