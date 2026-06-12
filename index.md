@@ -24,9 +24,9 @@ title: About
   bicategorical structures for topological quantum computation. </p>
 
       <p class="social-links">
-        <a href="https://scholar.google.com/citations?user=tJrPvagAAAAJ&hl=en" target="_blank">Google Scholar</a> ·
-        <a href="https://bsky.app/profile/ritaahmadi.bsky.social"_blank">Bluesky</a> ·
-        <a href="https://www.linkedin.com/in/fatimah-rita-ahmadi/"_blank">LinkedIn</a> ·
+        <a href="https://scholar.google.com/citations?user=tJrPvagAAAAJ&hl=en">Google Scholar</a> ·
+        <a href="https://bsky.app/profile/ritaahmadi.bsky.social">Bluesky</a> ·
+        <a href="https://www.linkedin.com/in/fatimah-rita-ahmadi/">LinkedIn</a> ·
         <a href="https://instagram.com/YOUR_HANDLE" target="_blank">Instagram</a>
       </p>
 
