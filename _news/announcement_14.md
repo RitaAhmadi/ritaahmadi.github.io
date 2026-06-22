@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-07-13
+date: 2026-07-25
 inline: true
 related_posts: false
 ---
-Machine Learning Retreat at The Isaac Newton Institute. 
+Giving a talk and poster presentation at the AI for Computer Science and Mathematics Research workshop at CAV 2026. 
