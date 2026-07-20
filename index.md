@@ -10,7 +10,7 @@ title: About
     
    
     <div class="about-photo">
-      <img src="assets/img/IMGS.jpg" alt="Profile photo">
+      <img src="assets/img/IMGS.JPG" alt="Profile photo">
     </div> 
 
     <!-- Bio + Links -->
