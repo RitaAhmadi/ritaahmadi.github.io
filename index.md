@@ -8,10 +8,10 @@ title: About
 
   <div class="about-container">
     
-    <!-- Photo 
+   
     <div class="about-photo">
       <img src="assets/img/img.jpg" alt="Profile photo">
-    </div> -->
+    </div> 
 
     <!-- Bio + Links -->
     <div class="about-text">
