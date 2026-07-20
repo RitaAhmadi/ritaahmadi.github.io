@@ -10,7 +10,7 @@ title: About
     
     <!-- Photo 
     <div class="about-photo">
-      <img src="assets/img/p.png" alt="Profile photo">
+      <img src="assets/img/img.jpg" alt="Profile photo">
     </div> -->
 
     <!-- Bio + Links -->
