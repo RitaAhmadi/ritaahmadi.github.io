@@ -27,7 +27,7 @@ title: About
         <a href="https://scholar.google.com/citations?user=tJrPvagAAAAJ&hl=en">Google Scholar</a> ·
         <a href="https://bsky.app/profile/ritaahmadi.bsky.social">Bluesky</a> ·
         <a href="https://www.linkedin.com/in/fatimah-rita-ahmadi/">LinkedIn</a> ·
-        <a href="https://instagram.com/YOUR_HANDLE" target="_blank">Instagram</a>
+        <a href="https://instagram.com/frtahmadi" target="_blank">Instagram</a>
       </p>
 
     </div>
