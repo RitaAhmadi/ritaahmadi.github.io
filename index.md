@@ -15,7 +15,7 @@ title: About
 
     <!-- Bio + Links -->
     <div class="about-text">
-     <p> I am <strong>Rita Ahmadi</strong>; a stipendiary lecturer at Mansfield College, 
+     <p> I am <strong>Rita Ahmadi</strong>; a stipendiary lecturer at Balliol College and Mansfield College, 
   <em>University of Oxford</em>. Before that, I was a postdoctoral researcher at the 
   Department of Mathematics, <em>Imperial College London</em>. I did my 
   <em>DPhil</em> at Quantum Group based at the Department of Computer Science, 
