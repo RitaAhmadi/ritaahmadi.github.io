@@ -51,7 +51,7 @@ permalink: /research/
       </div>
       <div class="essay-card-body">
         <span class="essay-card-venue">Proofs and Prompts · 2026</span>
-        <h3 class="essay-card-title">Aesthetics Judgement in Mathematics?</h3>
+        <h3 class="essay-card-title">Aesthetic Judgement in Mathematics?</h3>
       </div>
     </a>
 
