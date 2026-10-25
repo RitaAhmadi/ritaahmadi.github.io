@@ -44,17 +44,17 @@ permalink: /research/
         <h3 class="essay-card-title">How Should We Define Mathematical Beauty in the AI Age?</h3>
       </div>
     </a>
-    <!-- Copy from here ↓ to add another essay card
+  
     <a class="essay-card" href="https://proofsandprompts.com/2026/10/05/aesthetics-judgement-in-mathematics/" target="_blank">
       <div class="essay-card-img">
         <img src="{{ 'https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/08/cropped-ProofsPrompts-2-e1788104464853.png?fit=512%2C512&ssl=1' | relative_url }}" alt="Aesthetic Judgement in Mathematics?"/>
       </div>
       <div class="essay-card-body">
-        <span class="essay-card-venue">Publication · Year</span>
-        <h3 class="essay-card-title">Your Essay Title Here</h3>
+        <span class="essay-card-venue">Proofs and Prompts · 2026</span>
+        <h3 class="essay-card-title">Aesthetic Judgement in Mathematics?</h3>
       </div>
     </a>
-    ↑ to here -->
+
     <!-- Copy from here ↓ to add another essay card
     <a class="essay-card" href="YOUR_LINK" target="_blank">
       <div class="essay-card-img">
@@ -191,7 +191,7 @@ permalink: /research/
 
 <!-- ══════════════════════════════
      ACADEMIC SERVICE
-══════════════════════════════ -->
+══════════════════════════════ 
 <section class="section-block">
   <p class="section-label">Academic Service</p>
   <div class="service-list">
@@ -221,7 +221,7 @@ permalink: /research/
     </div>
 
   </div>
-</section>
+</section> 
 
 <style>
   /* ── Research Interests ── */
