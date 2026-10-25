@@ -188,8 +188,8 @@ permalink: /research/
 
   </div>
 </section>
-
-<!-- ══════════════════════════════
+<!--
+ ══════════════════════════════
      ACADEMIC SERVICE
 ══════════════════════════════ 
 <section class="section-block">
@@ -222,7 +222,7 @@ permalink: /research/
 
   </div>
 </section> 
-
+-->
 <style>
   /* ── Research Interests ── */
   .interests-grid {
