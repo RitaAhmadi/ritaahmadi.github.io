@@ -35,7 +35,7 @@ title: About
   </div>
 </section>
 
-
+<!--
 <section class="section-block">
   <p class="section-label">News</p>
 
@@ -50,4 +50,4 @@ title: About
     </div>
   {% endfor %}
 
-</section>
+</section> -->
